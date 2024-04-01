@@ -7,10 +7,23 @@
   <meta name="description" content="This is my webpage">
   <meta name="keywords" content="webpage, HTML, meta tags">
   <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
 <body>
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+
+  <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/3d2RQF2QIPmNjBzuk9EO">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" placeholder="Your Name" rules="required|max:255" required="required"/>
+      
+        <label for="name">Your Email</label>
+        <input type="email" name="email" placeholder="Your email" rules="required" required="required"/>
+
+        <button type="submit">Submit</button>
+  </form>
+  <script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
+
 </body>
 </html>
